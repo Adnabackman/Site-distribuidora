@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Mooli&display=swap');
+
+body {
+  background: linear-gradient(177.52deg, #1e1c75, #08101B, #000000);
+  font-family: 'Dhurjati', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px 0;
+}
+
+.caixa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+h1 img {
+  max-height: 350px;
+}
+
+nav li {
+  margin-right: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+nav a {
+  text-decoration:  underline;
+  color: white;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin: 0 0 1em;
+  clear: left;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.principal{
+  font-size: 1em;
+  padding: 80px;
+  text-align: justify;
+}
+
+.produtos{
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos li:hover{
+  border-color: #ffffff;
+}
+
+.produtos li:active{
+  border-color:darkgreen;
+}
+
+.produtos li:hover h2{
+  font-size:20px;
+}
+
+.produtos h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.produto-descricao{
+  font-size:16px;
+}
+
+.produto-preco{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer img {
+  max-height: 200px;
+}
+
+.copyright {
+  font-size: 0.9em;
+}
+main{
+    
+}
+
+form{
+  margin: 40px 0;
+  padding: 20px;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background:grey;
+  font-weight: bold;
+  font-size:18px;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: darkslategrey;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+  padding: 35px;
+}
+
+thead{
+  background: grey;
+  color: white;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 8px 15px;
+}
